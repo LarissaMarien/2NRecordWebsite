@@ -1,0 +1,136 @@
+@font-face {
+    font-family: arista;
+    src: url(arista.ttf);
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.GE1,.GE3 {
+  position: absolute;
+}
+
+.GE1 {
+  height: 120px;
+  top: 0px;
+  right: 0px;
+}
+
+.GE3 {
+  height: 250px;
+  left: 20px;
+  top:0px;
+}
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Titel {
+  font-family: arista;
+  font-weight: 700;
+  font-size:40px;
+  margin-top: 10px;
+}
+
+.Subtit {
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.navibox {
+  background-color: rgb(253,235,52);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-variant: small-caps;
+      font-size: 18px;
+      color: black;
+}
+
+nav > a {
+  color: black;
+  text-decoration: none;
+}
+
+h5 {
+  font-family: arista;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.affiche {
+  width: 100%;
+}
+
+#footer {
+  color: white;
+  margin-top: 100px;
+}
+
+.copyright > p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.containericons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.iconboxt {
+  height: 40px;
+}
+
+.iconboxf {
+  height: 30px;
+}
+
+.iconboxi {
+  height: 30px;
+}
+
+.iconboxe {
+  height: 40px;
+}
+
+@media (min-width: 900px) {
+      .containericons {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+}
+
+@media (min-width: 1150px) {
+      .containericons {
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+}
